@@ -36,7 +36,7 @@
         <span class="font-semibold text-primary-blue">Audio Mode</span>
     </nav>
 
-    <h1 class="text-3xl font-bold mb-6 text-gray-800">🎸 Chord Listening Game</h1>
+    <h1 class="text-3xl font-bold mb-6 text-gray-800">Chord Listening Game</h1>
 
     <div id="start-screen" class="flex flex-col items-center justify-center p-10 bg-white rounded-lg shadow-lg max-w-md w-full text-center">
         <div class="mb-4 text-6xl">🎙️</div>
@@ -60,7 +60,7 @@
                 <p id="target-chord" class="text-5xl font-black text-gray-800 mt-1">...</p>
                 
                 <div id="success-overlay" class="absolute inset-0 bg-success-green flex items-center justify-center opacity-0 transition-opacity duration-300 pointer-events-none">
-                    <span class="text-white font-bold text-3xl animate-bounce">PERFECT! 🎉</span>
+                    <span class="text-white font-bold text-3xl animate-bounce">PERFECT!</span>
                 </div>
             </div>
         </div>
