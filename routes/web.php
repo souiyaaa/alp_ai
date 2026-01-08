@@ -18,11 +18,16 @@ Route::middleware('auth')->group(function () {
     Route::get('/', [PracticeController::class, 'index']);
     Route::get('/tutor', [PracticeController::class, 'index'])->name('tutor');
     Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
-    
+
+    // Chord game route (your feature)
+    Route::get('/game', function () {
+        return view('chord_game');
+    })->name('chord.game');
+
     // API routes for practice sessions
     Route::post('/api/session/start', [PracticeController::class, 'startSession']);
     Route::post('/api/session/record', [PracticeController::class, 'recordChord']);
     Route::post('/api/session/end', [PracticeController::class, 'endSession']);
-    
+
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });
