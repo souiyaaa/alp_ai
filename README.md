@@ -72,13 +72,13 @@ The project implements a **Modular Model Storage** strategy to handle different 
 ## 🎮 How to Use
 
 ### Mode 1: Free Play (Visual)
-1.  Navigate to **Home** or `/chord-classifier`.
+1.  Navigate to **Home** or `/tutor`.
 2.  Allow camera permissions when prompted.
-3.  Hold a chord (C, G, Dm, or Em) in front of the camera.
+3.  Hold a chord (C, G, Dm, or Em,F, ) in front of the camera.
 4.  The AI will instantly detect and display the chord name on the screen.
 
 ### Mode 2: Mini-Game (Audio)
-1.  Navigate to **Game Mode** or `/chord-game`.
+1.  Navigate to **Game Mode** or `/GAME`.
 2.  Click **"Enable Mic & Start"** to initialize the Audio Context.
 3.  **The Challenge:** The screen will display a target chord (e.g., "STRUM THIS: G Major").
 4.  **The Action:** Strum the chord on your guitar.
@@ -94,5 +94,3 @@ This project demonstrates the practical application of **Edge AI**. By moving th
 3.  **Accessibility:** Makes advanced music tutoring technology accessible to anyone with a web browser.
 
 ---
-
-*Built with ❤️ by Surya for ALP Project.*
